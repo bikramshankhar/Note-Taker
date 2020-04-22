@@ -4,7 +4,7 @@
 
 THis is an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
-The URL of the deployed application: https://bikramshankhar.github.io/Day-planner/
+The URL of the deployed application: https://shielded-citadel-98819.herokuapp.com/
 
 ## Screenshot
   <img src="./image/screenshot.png">
