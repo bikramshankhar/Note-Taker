@@ -37,11 +37,11 @@ app.delete("/api/notes/:id", function(req, res) {
     let newID = 0;
 
     notesData = notesData.filter(currNote => {
-        return currNote.id != noteID;
+        return currNote != noteID;
     })
     
     for (currNote of notesData) {
-        currNote.id = newID.toString();
+        currNote = newID.toString();
         newID++;
     }
 
